@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Zhao">
   <meta name="keywords" content="">
-  <title>第一篇博客，没什么要写的，应该无可厚非吧！ - Zhao&#39;s Blog</title>
+  <title>ssm整合代码（忘记） - Zhao&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -162,7 +162,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="第一篇博客，没什么要写的，应该无可厚非吧！">
+            <span class="h2" id="subtitle" title="ssm整合代码（忘记）">
               
             </span>
 
@@ -172,8 +172,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-18 22:59" pubdate>
-        2020年12月18日 晚上
+      <time datetime="2020-12-19 14:11" pubdate>
+        2020年12月19日 下午
       </time>
     </span>
   
@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      55 字
+      241 字
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      4
        分钟
     </span>
   
@@ -224,10 +224,22 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">第一篇博客，没什么要写的，应该无可厚非吧！</h1>
+            <h1 style="display: none">ssm整合代码（忘记）</h1>
             
             <div class="markdown-body">
-              <h1 id="第一篇博客，没什么要写的，应该无可厚非吧！"><a href="#第一篇博客，没什么要写的，应该无可厚非吧！" class="headerlink" title="第一篇博客，没什么要写的，应该无可厚非吧！"></a>第一篇博客，没什么要写的，应该无可厚非吧！</h1><p> 从现在开始，这个博客就用来记录接下去生活咯，希望未来的我能来回忆下这第一篇博客。</p>
+              <h1 id="ssm整合代码（忘记）"><a href="#ssm整合代码（忘记）" class="headerlink" title="ssm整合代码（忘记）"></a>ssm整合代码（忘记）</h1><h2 id="maven资源过滤设置"><a href="#maven资源过滤设置" class="headerlink" title="maven资源过滤设置"></a>maven资源过滤设置</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;build&gt;<br>   &lt;resources&gt;<br>       &lt;resource&gt;<br>           &lt;directory&gt;src/main/java&lt;/directory&gt;<br>           &lt;includes&gt;<br>               &lt;include&gt;**<span class="hljs-comment">/*.properties&lt;/include&gt;</span><br>               &lt;include&gt;**/*.xml&lt;/include&gt;<br>           &lt;/includes&gt;<br>           &lt;filtering&gt;false&lt;/filtering&gt;<br>       &lt;/resource&gt;<br>       &lt;resource&gt;<br>           &lt;directory&gt;src/main/resources&lt;/directory&gt;<br>           &lt;includes&gt;<br>               &lt;include&gt;**<span class="hljs-comment">/*.properties&lt;/include&gt;</span><br>               &lt;include&gt;**/*.xml&lt;/include&gt;<br>           &lt;/includes&gt;<br>           &lt;filtering&gt;false&lt;/filtering&gt;<br>       &lt;/resource&gt;<br>   &lt;/resources&gt;<br>&lt;/build&gt;<br></code></pre></td></tr></table></figure>
+
+
+
+<h2 id="mybatis-config-xml"><a href="#mybatis-config-xml" class="headerlink" title="mybatis-config.xml"></a>mybatis-config.xml</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;?xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"UTF-8"</span> ?&gt;<br>&lt;!DOCTYPE configuration<br>       PUBLIC <span class="hljs-string">"-//mybatis.org//DTD Config 3.0//EN"</span><br>       <span class="hljs-string">"http://mybatis.org/dtd/mybatis-3-config.dtd"</span>&gt;<br>&lt;configuration&gt;<br><br>&lt;/configuration&gt;<br></code></pre></td></tr></table></figure>
+
+
+
+<h3 id="applicationContext-xml"><a href="#applicationContext-xml" class="headerlink" title="applicationContext.xml"></a>applicationContext.xml</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;?xml version=<span class="hljs-string">"1.0"</span> encoding=<span class="hljs-string">"UTF-8"</span>?&gt;<br>&lt;beans xmlns=<span class="hljs-string">"http://www.springframework.org/schema/beans"</span><br>      xmlns:xsi=<span class="hljs-string">"http://www.w3.org/2001/XMLSchema-instance"</span><br>      xsi:schemaLocation=<span class="hljs-string">"http://www.springframework.org/schema/beans</span><br><span class="hljs-string">       http://www.springframework.org/schema/beans/spring-beans.xsd"</span>&gt;<br><br>&lt;/beans&gt;<br></code></pre></td></tr></table></figure>
+
+<h3 id="数据库连接池-c3po-（当时因为版本的原因搞了好久）"><a href="#数据库连接池-c3po-（当时因为版本的原因搞了好久）" class="headerlink" title="数据库连接池 c3po （当时因为版本的原因搞了好久）"></a>数据库连接池 c3po （当时因为版本的原因搞了好久）</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">jdbc.url=jdbc:mysql:<span class="hljs-comment">//localhost:3306/ssmbuild?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</span><br></code></pre></td></tr></table></figure>
+
+<p>暂时就这些..</p>
 
             </div>
             <hr>
@@ -244,9 +256,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2020/12/19/ssm%E6%95%B4%E5%90%88%E4%BB%A3%E7%A0%81%EF%BC%88%E5%BF%98%E8%AE%B0%EF%BC%89/">
+                      <a href="/2020/12/22/%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8tensorflow%20DAY1(%E8%AE%B0%E4%B8%8B%E4%BB%A3%E7%A0%81%E6%96%B9%E4%BE%BF%E6%9C%89%E7%A9%BA%E7%9A%84%E6%97%B6%E5%80%99%E7%9C%8B%E4%B8%8B)/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">ssm整合代码（忘记）</span>
+                        <span class="hidden-mobile">简单入门tensorflow DAY1(记下代码方便有空的时候看下)</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -254,8 +266,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2020/07/19/hello-world/">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2020/12/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%EF%BC%8C%E6%B2%A1%E4%BB%80%E4%B9%88%E8%A6%81%E5%86%99%E7%9A%84%EF%BC%8C%E5%BA%94%E8%AF%A5%E6%97%A0%E5%8F%AF%E5%8E%9A%E9%9D%9E%E5%90%A7%EF%BC%81/">
+                        <span class="hidden-mobile">第一篇博客，没什么要写的，应该无可厚非吧！</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
