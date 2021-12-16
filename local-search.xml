@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>计网简答题</title>
+    <link href="/2021/12/16/%E8%AE%A1%E7%BD%91%E7%AE%80%E7%AD%94%E9%A2%98/"/>
+    <url>/2021/12/16/%E8%AE%A1%E7%BD%91%E7%AE%80%E7%AD%94%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<h1 id="计网简答题"><a href="#计网简答题" class="headerlink" title="计网简答题"></a>计网简答题</h1><h2 id="第一章：计算机网络概述"><a href="#第一章：计算机网络概述" class="headerlink" title="第一章：计算机网络概述"></a>第一章：计算机网络概述</h2><ol><li>计算机网络的分类（按作用范围分，按使用者分，按采用的交换技术分）</li><li>互联网的组成：边缘和核心</li><li>边缘：客户服务器方式，p2p</li><li>核心：电路交换，分组交换，报文交换</li><li>计算机网络主要性能指标（7种）</li><li>计算机网络体系结构的定义</li><li>osi,tcp/ip体系</li><li>转发器</li></ol><h2 id="第二章：物理层"><a href="#第二章：物理层" class="headerlink" title="第二章：物理层"></a>第二章：物理层</h2><ol><li>物理层解决什么问题，四个特性</li><li>数据通信（单工，半双工，全双工）</li><li>数据通信模型（源系统，传输系统，目的系统）</li><li>传输媒介（引导型和非引导型）</li><li>奈氏准则和香农公式</li><li>同步通信和异步通信/未同步和帧同步、</li><li>名词解释：数据，信号，模拟信号，基带信号，带通信号，数字数据，数字信号，码元，并行串行</li><li>信道复用：FDM,TDM,STDM,WDM,DWDM,CDMA.</li><li>ADSL,HFC,FTTX接入技术</li><li></li></ol><h2 id="第三章：数据链路层"><a href="#第三章：数据链路层" class="headerlink" title="第三章：数据链路层"></a>第三章：数据链路层</h2><ol><li>数据链路层的功能（封装成帧，透明传输，差错检测）</li><li>ppp，crc，检错吗纠错码</li><li>网络拓扑（三种）</li><li>，以太网，IEEE802.3以太网（多点接入，载波监听，碰撞监测）</li><li>csma/cd</li><li>以太网交换机，VLAN，网桥</li></ol><h2 id="第四章：网络层"><a href="#第四章：网络层" class="headerlink" title="第四章：网络层"></a>第四章：网络层</h2><ol><li>提供的两种服务：虚电路和数据报</li><li>转发器，网桥，路由器区别</li><li>网际协议ip，ARP,RARP,ICMP，IGMP</li><li>ip地址与物理地址的区别</li><li>mtu，CIDR</li><li>IGP:RIP,OSPF EGP:BGP4</li><li>VPN,NAT,NAPT</li><li>虚拟分组（IP数据报）</li><li>网络互连的意义</li><li>ttl</li><li>自治系统</li></ol><h2 id="第五章：运输层"><a href="#第五章：运输层" class="headerlink" title="第五章：运输层"></a>第五章：运输层</h2><ol><li>TCP UDP</li><li>面向连接和非面向连接</li><li>接口和套接字</li><li>糊涂综合征</li><li>慢开始，快充穿，快恢复</li><li>pdu</li></ol><h2 id="第六章：应用层"><a href="#第六章：应用层" class="headerlink" title="第六章：应用层"></a>第六章：应用层</h2><ol><li>域名系统DNS，域名服务器，域名转化（迭代和递归）</li><li>ftp</li><li>telnet</li><li>www，URL,HTTP,HTML,CGI,浏览器，超文本，超媒体，超链</li><li>SMTP,POP3</li><li>DHCP</li><li>搜索引擎</li></ol><h2 id="第七章：网络安全"><a href="#第七章：网络安全" class="headerlink" title="第七章：网络安全"></a>第七章：网络安全</h2><ol><li>拒绝服务dos，分布式拒绝服务ddos</li><li>报文保密性和完整性</li><li>常规密钥体制和公钥体制</li><li>rsa</li><li>计算机网络的威胁（一个被动，三个主动）</li><li>拒绝服务，访问控制，流量分析，恶意程序</li><li>密码编码学 ，密码分析学，密码学</li><li>数字签名</li><li>报文鉴别和实体鉴别</li><li>防火墙</li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>简单入门tensorflow DAY1(记下代码方便有空的时候看下)</title>
     <link href="/2020/12/22/%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8tensorflow%20DAY1(%E8%AE%B0%E4%B8%8B%E4%BB%A3%E7%A0%81%E6%96%B9%E4%BE%BF%E6%9C%89%E7%A9%BA%E7%9A%84%E6%97%B6%E5%80%99%E7%9C%8B%E4%B8%8B)/"/>
     <url>/2020/12/22/%E7%AE%80%E5%8D%95%E5%85%A5%E9%97%A8tensorflow%20DAY1(%E8%AE%B0%E4%B8%8B%E4%BB%A3%E7%A0%81%E6%96%B9%E4%BE%BF%E6%9C%89%E7%A9%BA%E7%9A%84%E6%97%B6%E5%80%99%E7%9C%8B%E4%B8%8B)/</url>
